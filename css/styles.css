@@ -1,0 +1,66 @@
+/* Global Styles */
+* {
+  font-family: "Heebo", sans-serif;
+}
+
+/*HEADER*/
+header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 230px;
+  margin-left: -30px;
+  margin-top: -80px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  margin-top: -30px;
+}
+
+li {
+  margin-left: 2rem;
+}
+
+.search-container {
+  position: absolute;
+  top: 35px;
+  right: 130px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+.search-icon {
+  margin-right: 5px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-bottom: 2px solid #000;
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+.main-sections {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.main-sections i {
+  font-size: 20px;
+}
