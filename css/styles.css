@@ -22,7 +22,7 @@ ul {
   margin-top: 20px;
 }
 
-li {
+.top-menu {
   margin-left: 2rem;
 }
 
@@ -71,7 +71,8 @@ li {
 .animal-navigation {
   display: flex;
   list-style: none;
-  align-content: start;
+  margin-left: 4rem;
+  gap: 30px;
 }
 /* PET CATEGORIES */
 
