@@ -74,11 +74,12 @@ ul {
   margin-left: 4rem;
   gap: 30px;
 }
+
 /* PET CATEGORIES */
 
 .pet-categories {
   position: absolute;
-  margin-top: -30px;
+  margin-top: 30px;
   margin-left: 250px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -89,10 +90,10 @@ ul {
 }
 
 .category img {
-  width: 200px; /* Adjust size */
-  height: 200px; /* Keep images uniform */
-  object-fit: cover; /* Keeps images properly cropped */
-  border-radius: 10px; /* Optional: rounded corners */
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .category p {
@@ -101,10 +102,12 @@ ul {
   font-weight: bold;
 }
 
+/* BRANDS */
+
 .brands-section {
   position: absolute;
   text-align: center;
-  margin-top: 500px;
+  margin-top: 600px;
 }
 
 h2 {
@@ -133,8 +136,62 @@ h2 {
   object-fit: contain;
 }
 
+/* BESTSELLERS*/
+
+.bestsellers {
+  position: absolute;
+  text-align: center;
+  margin-top: 800px;
+}
+
+.bestsellers-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.bestseller-item {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.bestseller-item img {
+  width: 100%;
+  max-width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-info {
+  margin-top: 10px;
+}
+
+.product-info p {
+  margin: 5px 0;
+}
+
+.product-info price {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.add-to-cart {
+  background: #bfbfbf;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 /*Dry Food Cat*/
 
-.page-title{
+.page-title {
   text-align: center;
 }
