@@ -1,6 +1,11 @@
 * {
   font-family: "Heebo", sans-serif;
 }
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
 
 /*HEADER*/
 header {
@@ -188,6 +193,77 @@ h2 {
   border-radius: 10px;
   cursor: pointer;
   font-weight: bold;
+}
+
+/* OFFER */
+
+.offer-container {
+  position: absolute;
+  margin-top: 1450px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.offer-image {
+  width: 500px;
+  height: auto;
+}
+
+.offer-details {
+  max-width: 700px;
+}
+
+.offer-button {
+  background-color: #ccc;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.offer-button:hover {
+  background-color: #bbb;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 2000px;
+  background-color: #e3e3e3;
+  padding: 30px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  max-height: 280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 40px;
+}
+
+.footer-logo img {
+  width: 300px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section p {
+  font-size: 16px;
+  margin-bottom: -5px;
+  gap: 5px;
 }
 
 /*Dry Food Cat*/
