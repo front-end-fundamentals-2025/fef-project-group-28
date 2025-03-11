@@ -10,7 +10,7 @@ html {
   flex-direction: column;
 }
 
-main{
+main {
   flex: 1;
 }
 
@@ -95,7 +95,7 @@ ul {
   margin-left: 250px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 50px; /* Space between images */
+  gap: 50px;
   row-gap: 20px;
   max-width: 500px;
   text-align: center;
