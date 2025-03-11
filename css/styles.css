@@ -3,8 +3,15 @@
 }
 body,
 html {
+  height: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex: 1;
 }
 
 /*HEADER*/
@@ -83,7 +90,7 @@ ul {
 /* PET CATEGORIES */
 
 .pet-categories {
-  position: absolute;
+  /* position: absolute; */
   margin-top: 30px;
   margin-left: 250px;
   display: grid;
@@ -110,9 +117,9 @@ ul {
 /* BRANDS */
 
 .brands-section {
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
-  margin-top: 600px;
+  margin-top: 2rem;
 }
 
 h2 {
@@ -144,9 +151,9 @@ h2 {
 /* BESTSELLERS*/
 
 .bestsellers {
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
-  margin-top: 800px;
+  margin-top: 1rem;
 }
 
 .bestsellers-container {
@@ -196,10 +203,9 @@ h2 {
 }
 
 /* OFFER */
-
 .offer-container {
-  position: absolute;
-  margin-top: 1450px;
+  position: relative;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -231,9 +237,10 @@ h2 {
 
 /* FOOTER */
 .footer {
-  margin-top: 2000px;
+  margin-top: 10rem;
   background-color: #e3e3e3;
   padding: 30px 0;
+  width: 100%;
 }
 
 .footer-container {
@@ -266,7 +273,7 @@ h2 {
   gap: 5px;
 }
 
-/*Dry Food Cat*/
+/*CAT PRODUCTS*/
 
 .page-title {
   text-align: center;
