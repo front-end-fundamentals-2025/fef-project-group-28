@@ -360,9 +360,23 @@ h2 {
 .prod-detail details{
   border-top: solid black 0.2px;
   max-width: 400px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .prod-detail summary{
   padding-left: 10px;
+  font-size: 18px;
+}
+
+table{
+  border-collapse: collapse;
+  border: solid black 1px;
+  margin-top: 20px;
+}
+
+th {
+  border: solid black 0.5px;
+  padding: 10px 40px;
+  color: #636363;
+  font-size: 14px;
 }
