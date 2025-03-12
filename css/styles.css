@@ -287,10 +287,6 @@ h2 {
 
 }
 
-.add-product{
-  background-color: #613033;
-}
-
 .product-name{
   list-style: none;
   font-weight: bold;
@@ -303,4 +299,14 @@ h2 {
 .prod-spread img{
   max-width: 200px;
   max-width: 200px;
+}
+
+.prod-spread button{
+  color: #ffffff;
+  /* background-color: #613033; */
+  background-color: #4C6D6E;
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  text-align: center;
 }
