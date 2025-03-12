@@ -1,8 +1,7 @@
 * {
   font-family: "Heebo", sans-serif;
 }
-body,
-html {
+body, html {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -32,6 +31,10 @@ ul {
   list-style: none;
   padding-left: 0px;
   margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .top-menu {
@@ -90,7 +93,6 @@ ul {
 /* PET CATEGORIES */
 
 .pet-categories {
-  /* position: absolute; */
   margin-top: 30px;
   margin-left: 250px;
   display: grid;
@@ -117,9 +119,8 @@ ul {
 /* BRANDS */
 
 .brands-section {
-  /* position: absolute; */
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 h2 {
@@ -151,9 +152,8 @@ h2 {
 /* BESTSELLERS*/
 
 .bestsellers {
-  /* position: absolute; */
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .bestsellers-container {
@@ -205,7 +205,7 @@ h2 {
 /* OFFER */
 .offer-container {
   position: relative;
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -244,6 +244,7 @@ h2 {
 }
 
 .footer-container {
+  width: 100%;
   max-width: 1200px;
   max-height: 280px;
   margin: 0 auto;
@@ -252,6 +253,7 @@ h2 {
   align-items: start;
   gap: 40px;
 }
+
 
 .footer-logo img {
   width: 300px;
@@ -277,4 +279,28 @@ h2 {
 
 .page-title {
   text-align: center;
+}
+
+.product-main-page{
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+
+}
+
+.add-product{
+  background-color: #613033;
+}
+
+.product-name{
+  list-style: none;
+  font-weight: bold;
+}
+
+.prod-spread{
+  padding: 10px;
+}
+
+.prod-spread img{
+  max-width: 200px;
+  max-width: 200px;
 }
