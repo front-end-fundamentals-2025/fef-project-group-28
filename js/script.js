@@ -1,5 +1,7 @@
+/* LOCAL STORAGE FOR CART */
+
 document.addEventListener("DOMContentLoaded", function () {
-    const cart = JSON.parse(localStorage.getItem("cart")) || []; // Get existing cart or create an empty one
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
 
     
     document.querySelectorAll(".add-to-cart").forEach(button => {
@@ -10,11 +12,17 @@ document.addEventListener("DOMContentLoaded", function () {
             const image = productContainer.querySelector("img").src;
 
             const product = { name, price, image };
-            cart.push(product); // Add the product to the cart array
+            cart.push(product);
 
-            localStorage.setItem("cart", JSON.stringify(cart)); // Save cart in localStorage
-
-            alert("Product added to cart! 🛒");
+            localStorage.setItem("cart", JSON.stringify(cart));
         });
     });
+});
+
+/* ANIMATION FOR BRANDS SECTION (it dublicates logos for an infinite loop) */
+
+document.addEventListener("DOMContentLoaded", function () {
+    const track = document.querySelector(".brands-track");
+    const logos = track.innerHTML;
+    track.innerHTML += logos;
 });

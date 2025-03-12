@@ -4,22 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
+    <script src="https://kit.fontawesome.com/b738639bf6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <a href="index.html">Back to Home</a>
+        <img class="logo" src="images/Petzy_transparent-.png" alt="My photo">
+        <nav>
+            <ul class="top-menu">
+                <a href="index.html">Home</a>
+                <li class="top-menu">About</li>
+                <li class="top-menu">Contacts</li>
+                <li class="top-menu">FAQ</li>
+                <li class="top-menu">Delivery</li>
+                <li class="top-menu">Payment</li>
+                <li class="top-menu">Blog</li>
+            </ul>
+
+            <div class="search-container">
+                <div class="search-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <input type="text" placeholder="Search for products..." class="search-input">
+            </div>
+
+            <div class="main-sections">
+                <i class="fa-regular fa-user"></i>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i class="fa-regular fa-heart"></i>
+            </div>   
+        </nav>
     </header>
 
     <main>
         <h1>Your Shopping Cart</h1>
-        <div id="cart-items">
-            
-        </div>
+        <div id="cart-items"></div>
         <button id="clear-cart">Clear Cart</button>
     </main>
 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/Petzy_transparent-.png" alt="Brand Logo">
+            </div>
+    
+            <div class="footer-section">
+                <h3>Catalog</h3>
+                    <p>For Cats</p>
+                    <p>For Dogs</p>
+                    <p>For Rodents</p>
+                    <p>For Birds</p>
+                    <p>All Products</p>
+            </div>
+    
+            <div class="footer-section">
+                <h3>For Customers</h3>
+                    <p>About</p>
+                    <p>Payment</p>
+                    <p>Delivery</p>
+                    <p>News</p>
+                    <p>Contacts</p>
+                    <p>Terms & Conditions</p>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Contacts</h3>
+                <p>📍 Chișinău, Industrială Street, 21</p>
+                <p>📞 +373 60 99 77 99</p>
+                <p>📧 korm@korm.md</p>
+            </div>
+        </div>
+    </footer>
     <script src="js/cart.js"></script>
+
+    
 </body>
 </html>

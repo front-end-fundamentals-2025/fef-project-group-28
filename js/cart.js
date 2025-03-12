@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
             itemElement.innerHTML = `
                 <img src="${item.image}" alt="${item.name}" width="50">
                 <p>${item.name}</p>
-                <p>${item.price} SEK</p>
+                <p>${item.price}</p>
                 <button class="remove-item" data-index="${index}">Remove</button>
             `;
             cartContainer.appendChild(itemElement);
