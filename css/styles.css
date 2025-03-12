@@ -291,7 +291,7 @@ a {
 /* FOOTER */
 .footer {
   bottom: 0;
-  width: 1220px;
+  /* width: 1220px; */
   background-color: #e3e3e3;
   padding: 20px;
 }
@@ -370,11 +370,17 @@ a {
 
 .prod-spread {
   padding: 10px;
+
 }
 
 .prod-spread img {
   max-width: 200px;
   max-height: 200px;
+  border: solid black 0.1px;
+}
+
+.prod-spread li{
+  max-width: 200px;
 }
 
 .prod-spread button {
@@ -383,6 +389,13 @@ a {
   border-radius: 5px;
   width: 60px;
   height: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.prod-spread button, p {
+  display: flex;
   text-align: center;
 }
 
