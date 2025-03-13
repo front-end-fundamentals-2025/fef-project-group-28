@@ -1,5 +1,4 @@
 /* LOCAL STORAGE FOR CART */
-
 document.addEventListener("DOMContentLoaded", function () {
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
 
@@ -17,12 +16,4 @@ document.addEventListener("DOMContentLoaded", function () {
             localStorage.setItem("cart", JSON.stringify(cart));
         });
     });
-});
-
-/* ANIMATION FOR BRANDS SECTION (it dublicates logos for an infinite loop) */
-
-document.addEventListener("DOMContentLoaded", function () {
-    const track = document.querySelector(".brands-track");
-    const logos = track.innerHTML;
-    track.innerHTML += logos;
 });
