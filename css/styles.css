@@ -177,23 +177,13 @@ a {
   display: flex;
   gap: 50px;
   width: max-content;
-  animation: scroll 30s linear infinite;
+  animation: scroll 50s linear infinite;
 }
 
 .brands-track img {
   height: 80px;
   width: auto;
   object-fit: contain;
-}
-
-/* Animation */
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
 }
 
 /* ANIMATION FOR BRANDS*/
@@ -262,8 +252,8 @@ a {
 }
 
 .add-to-cart {
-  background: #f4e6dc;
-  color: #5a3d2b;
+  background: #d3d0cd;
+  color: white;
   padding: 10px 15px;
   border: none;
   border-radius: 10px;
@@ -273,6 +263,7 @@ a {
 
 /* OFFER */
 .offer-container {
+  background-color: #c2bbad;
   position: relative;
   margin-top: 4rem;
   display: flex;
@@ -291,7 +282,7 @@ a {
 }
 
 .offer-button {
-  background-color: #ccc;
+  background-color: #d0cccc;
   color: white;
   font-weight: bold;
   padding: 10px 20px;
@@ -301,7 +292,7 @@ a {
 }
 
 .offer-button:hover {
-  background-color: #bbb;
+  background-color: #5a3d2b;
 }
 
 /* FOOTER */
@@ -344,28 +335,68 @@ a {
 }
 
 /*CART PAGE LAYOUT*/
-.cart-items {
-  flex: 2;
-  padding: 20px;
-  border-radius: 8px;
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #5a3d2b;
+}
+
+#cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .cart-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ddd;
-  padding: 10px 0;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .cart-item img {
-  width: 80px;
+  width: 60px;
   height: auto;
-  margin-right: 15px;
 }
 
-.cart-item-details {
-  flex: 1;
+.cart-item p {
+  flex-grow: 1;
+
+  font-size: 16px;
+}
+
+button {
+  background: #d0cccc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #5a3d2b;
+}
+
+#clear-cart {
+  margin-top: 20px;
+  margin-left: 20px;
+  background: #5a3d2b;
+}
+
+#clear-cart:hover {
+  background: #222;
+}
+
+.empty-cart {
+  font-size: 18px;
+  color: #777;
+  text-align: center;
+  padding: 20px;
 }
 
 /*CAT PRODUCTS*/
@@ -386,7 +417,6 @@ a {
 
 .prod-spread {
   padding: 10px;
-
 }
 
 .prod-spread img {
@@ -395,7 +425,7 @@ a {
   border: solid black 0.1px;
 }
 
-.prod-spread li{
+.prod-spread li {
   max-width: 200px;
 }
 
@@ -410,7 +440,8 @@ a {
   justify-content: center;
 }
 
-.prod-spread button, p {
+.prod-spread button,
+p {
   display: flex;
   text-align: center;
 }
