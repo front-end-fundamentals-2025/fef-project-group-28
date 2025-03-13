@@ -515,6 +515,7 @@ button:hover {
 .product-main-page {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
+  padding-left: 5rem;
 }
 
 .product-name {
@@ -557,6 +558,7 @@ p {
   .product-main-page {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
+    padding-left: 2rem;
   }
 }
 
@@ -564,7 +566,6 @@ p {
   .product-main-page {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    padding-left: 6rem;
   }
 }
 
