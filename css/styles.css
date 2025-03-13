@@ -526,6 +526,7 @@ button:hover {
 }
 
 .prod-info p {
+  font-size: 14px;
   margin: 0;
 }
 
@@ -553,7 +554,7 @@ th {
   font-size: 14px;
 }
 
-@media screen and (max-width: 790px){
+@media screen and (max-width: 750px){
   .prod-detail{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
