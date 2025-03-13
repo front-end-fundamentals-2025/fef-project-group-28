@@ -466,10 +466,18 @@ button:hover {
   text-align: center;
 }
 
+@media screen and (max-width: 900px){
+  .product-main-page {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+  }
+}
+
 @media screen and (max-width: 750px){
-  .product-main-page{
+  .product-main-page {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+    padding-left: 6rem;
   }
 }
 
