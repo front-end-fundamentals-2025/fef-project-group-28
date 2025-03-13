@@ -413,6 +413,23 @@ ul.top-menu li {
   gap: 5px;
 }
 
+@media screen and (max-width: 920px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+  }
+
+  .footer-logo {
+    grid-column: span 3;
+    /*Help with image centering https://chatgpt.com/share/67d3226c-0714-8003-9535-a63b2a9db795*/
+    display: flex;
+    justify-content: center;
+    /*End of citing*/
+  }
+}
+
 /*CART PAGE LAYOUT*/
 
 .heading-cart {
@@ -510,8 +527,8 @@ button:hover {
   color: #ffffff;
   background-color: #613033;
   border-radius: 5px;
-  width: 60px;
-  height: 20px;
+  width: 70px;
+  height: 40px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -523,10 +540,18 @@ p {
   text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+  .product-main-page {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+  }
+}
+
 @media screen and (max-width: 750px) {
   .product-main-page {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+    padding-left: 6rem;
   }
 }
 
@@ -575,6 +600,7 @@ p {
 }
 
 .prod-info p {
+  font-size: 14px;
   margin: 0;
 }
 
