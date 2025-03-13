@@ -208,7 +208,7 @@ a {
 
 .bestsellers-options li {
   display: flex;
-  margin-left: 250px;
+  margin-left: 6rem;
   text-align: center;
   border-bottom: 1px solid #ddd;
 }
@@ -467,6 +467,13 @@ p {
   text-align: center;
 }
 
+@media screen and (max-width: 750px){
+  .product-main-page{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
 /*PRODUCT DETAIL PAGE*/
 
 .prod-detail {
@@ -475,6 +482,7 @@ p {
   align-items: center;
   margin-top: 3rem;
   padding-left: 20px;
+  padding-bottom: 40px;
   gap: 20px;
 }
 
@@ -536,4 +544,12 @@ th {
   padding: 10px 50px;
   color: #636363;
   font-size: 14px;
+}
+
+@media screen and (max-width: 790px){
+  .prod-detail{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 }
