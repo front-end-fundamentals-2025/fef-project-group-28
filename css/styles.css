@@ -65,6 +65,14 @@ ul.top-menu {
   gap: 15px;
 }
 
+.animal-navigation {
+  display: flex;
+  list-style: none;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  gap: 30px;
+}
+
 /* MOBILE SCREEN */
 @media (max-width: 768px) {
   header {
@@ -391,8 +399,7 @@ ul.top-menu {
 
 .footer-container {
   width: 100%;
-  max-width: 1200px;
-  max-height: 280px;
+  background-color: #e3e3e3;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -465,7 +472,6 @@ ul.top-menu {
 
 .cart-item p {
   flex-grow: 1;
-
   font-size: 16px;
 }
 
