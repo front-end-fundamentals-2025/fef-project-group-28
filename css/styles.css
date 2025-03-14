@@ -45,10 +45,6 @@ ul.top-menu {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 .search-container {
   display: flex;
   align-items: center;
